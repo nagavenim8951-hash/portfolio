@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3{
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.contact-heading,
+.shipping-heading{
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 600;
+    color:#37353E;
+}
+
+input, .selectClass{
+    border: 2px solid #e6e6ea;
+    outline: none;
+    padding: 10px 15px 10px 40px; 
+    /* padding: 10px 90px; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.selectClass{
+    padding-left: 40px;
+}
+
+.countryAndPostal{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+.email,
+.phone-no,
+.full-name,
+.address,
+.city{
+    padding: 10px 100px;
+
+}
+
+.postal-icon{
+   position: absolute;
+   left: 155px;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 18px;
+   pointer-events: none;
+}
+
+.input-wrapper{
+    position: relative;
+    width: 100%;
+}
+
+.common{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    pointer-events: none;
+}
+
+
+
+.checkbox-save{
+    font-size: 16px;
+}
+
+.confirm-button{
+    border: 0;
+    padding: 16px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #FF6D1F;
+    color: white;
+    margin-top: 10px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e6e6ea;
+    padding: 35px 55px;
+    border-radius: 10px;
+}
+
+.photo{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.for-flex{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.additionItems{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.shipping{
+    border-top: 1px solid black;
+    padding-top: 8px;
+}
+
+.left{ float: left; }
+.right{ float: right; }
+
+.nameOfTheItem{
+    margin-bottom: 6px;
+}
+
+.price{
+    margin-bottom: 6px;
+    color: #FF6D1F;
+}
+
+strike{
+    color: black;
+}
+@media(max-width:900px){
+ .container{
+    flex-direction: column;
+    gap: 20px;
+ }
+}
+@media(max-width:370px){
+.email,
+.phone-no,
+.full-name,
+.address,
+.city{
+    padding: 10px 50px;
+
+  }
+  .postal{
+    flex:1;
+    max-width: 55%;
+  }
+  
+}

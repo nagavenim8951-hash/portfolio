@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check out</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="customer-info">
+            <h3>CheckOut</h3>
+            <p class="contact-heading">Contact information</p>
+
+            <form action="">
+
+                <label>Email</label><br>
+                <div class="input-wrapper">
+                    <ion-icon name="mail" class="common icons"></ion-icon>
+                    <input type="email" placeholder="Enter your email..." class="email">
+                </div>
+
+                <label>Phone</label><br>
+                <div class="input-wrapper">
+                    <ion-icon name="call" class="common phone-icon"></ion-icon>
+                    <input type="number" placeholder="Enter your Phone..." class="phone-no">
+                </div>
+
+                <p class="shipping-heading">Shipping address</p>
+
+                <label>Full Name</label><br>
+                <div class="input-wrapper">
+                    <ion-icon name="person-circle" class="common name-icon"></ion-icon>
+                    <input type="text" placeholder="Enter your Full name..." class="full-name">
+                </div>
+
+                <label>Address</label><br>
+                <div class="input-wrapper">
+                    <ion-icon name="home" class="common home-icon"></ion-icon>
+                    <input type="text" placeholder="Your address..." class="address">
+                </div>
+
+                <label>City</label><br>
+                <div class="input-wrapper">
+                    <ion-icon name="business" class="common city-icon"></ion-icon>
+                    <input type="text" placeholder="Your city" class="city">
+                </div>
+
+                <div class="countryAndPostal">
+
+                    <div>
+                        <label>Country</label><br>
+                        <div>
+                            <ion-icon name="earth" class="common earth-icon"></ion-icon>
+                            <select class="selectClass">
+                                <option>India</option>
+                                <option>Sri Lanka</option>
+                                <option>Bhutan</option>
+                                <option>America</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label>Postal code</label><br>
+                        <div>
+                            <ion-icon name="albums" class=" postal-icon"></ion-icon>
+                            <input type="number" placeholder="Your postal code" class="postal">
+                        </div>
+                    </div>
+
+                </div>
+
+                <input type="checkbox">
+                <label class="checkbox-save">save this information for next time.</label><br>
+
+                <button class="confirm-button">Confirm</button>
+            </form>
+        </div>
+
+        <div class="items">
+            <div class="bag">
+                <div class="for-flex">
+                    <div class="img-bag">
+                        <img src="images/photo1 (1).png" class="photo">
+                    </div>
+                    <div class="info">
+                        <p class="nameOfTheItem">Vintage Bag</p>
+                        <p class="price">$49.99 <strike>$94.99</strike></p>
+                        <div class="additionItems">
+                            <ion-icon name="remove-circle"></ion-icon>
+                            <p>1</p>
+                            <ion-icon name="add-circle"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shoes">
+                <div class="for-flex">
+                    <div class="img-shoes">
+                        <img src="images/photo2 (1).png" class="photo">
+                    </div>
+                    <div class="info">
+                        <p class="nameOfTheItem">Levis shoes</p>
+                        <p class="price">$49.99 <strike>$94.99</strike></p>
+                        <div class="additionItems">
+                            <ion-icon name="remove-circle"></ion-icon>
+                            <p>1</p>
+                            <ion-icon name="add-circle"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shipping">
+                <p class="left">Shipping</p>
+                <span class="right">$19</span>
+            </div>
+
+            <div class="shipping">
+                <p class="left">Total</p>
+                <span class="right">$148.98</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
