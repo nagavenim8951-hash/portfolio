@@ -7,9 +7,9 @@ solution for a challenge from **Devchallenges.io**
 ---
 ## Table of Contents
 
--[Overview] (#overview)
+-[Overview](#overview)
 
--[Bulit With] (#built-with)
+-[Bulit With](#built-with)
 
 -[Features](#features)
 
@@ -20,9 +20,6 @@ solution for a challenge from **Devchallenges.io**
 -[Contact](#contact)
 
 ---
-## Overview
-
-![screenshot]("blob:https://github.com/6b97ba0d-6d58-4bc1-984f-f90f140e62e0")
 
 ## Introduce your project here.For example:
 
@@ -62,11 +59,17 @@ npm start
 ```
 
 ## Acknowledgements
+
 -steps to replicate a design with only HTML and CSS
+
 -Node.js
+
 -Marked - a markdown parser
 
 ## Contact
+
 -**Website:** your-website.com
+
 -**GitHub:**  @your-username
+
 -**Twitter:** @youe-twitter
